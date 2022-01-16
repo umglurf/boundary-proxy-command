@@ -10,7 +10,7 @@ Wrapper script for running commands through boundary with correct hostname so ss
 
 ## Usage
 
-You need to have the environment variable `BOUNDARY_ADDR' set. Run `boundary-proxy-command -h` to see all options.
+You need to have the environment variable `BOUNDARY_ADDR` set. Run `boundary-proxy-command -h` to see all options.
 The environment variable `BOUNDARY_LISTEN_PORT` will be set for the command to the port set up by boundary to listen on.
 If `listen_port` argument is not given, this is a random port chosen by boundary.
 
